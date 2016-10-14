@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+   
+  <title>Document</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.tmpl.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+</head>
+<body>
+    <script type="text/html" id="test">
+    <%for (var i = 0; i < data.length; i++) {%> 
+    <div>
+      <h4><%= data[i].title%></h4>
+      <p><%= data[i].privateData %></p>
+    </div>  
+      <%}%>
+    </script>
+
+
+</body>
+</html>
